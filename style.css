@@ -25,7 +25,12 @@ body{
     display:flex;
     width:50vw;
     height:100vh;
-    background-color: black;
+    background-color:grey;
+    opacity: .5;
+    justify-content: center;
+    
+    
+    
 }
 
 .myimg{
@@ -46,5 +51,14 @@ body{
     width:100%;
     text-align: center;
     user-select: none;
+}
+.mytext{
+    font-size: 32px;
+    padding:50px;
+    width:50%;
+    height:35%;
+    
+    border:1px solid blue;
+    
 }
 
