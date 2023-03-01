@@ -14,7 +14,11 @@ body{
 }
 
 label,input{
-    display:block;
+    display:flex;
+    
+}
+section{
+    padding:40px;
 }
 
 .flexbox-parent{
@@ -27,8 +31,8 @@ label,input{
 
 .flexbox-form{
     display:flex;
-    width:50vw;
-    height:100vh;
+    min-width:50vw;
+    min-height:100vh;
     background-color:grey;
     opacity: .5;
     justify-content: center;
@@ -67,10 +71,12 @@ label,input{
     border:1px solid blue;
     
 }
+
 .sign-up-form{
     display:flex;
     border:1px solid red;
     flex-grow: 0;
+    flex-shrink: 1;
     width: 80%;
     height:40%;
     justify-content: center;
